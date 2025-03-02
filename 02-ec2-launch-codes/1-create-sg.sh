@@ -1,0 +1,1 @@
+aws ec2 create-security-group --group-name "linux-learning" --description "launch-wizard-1 created 2025-02-23T18:00:54.135Z" --vpc-id "vpc-0bb5ac3246b00fbc8" 

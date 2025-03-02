@@ -33,54 +33,32 @@ You going to need 4 things for this network:
 * 4. A Route Table
     * Now finally we need to make a route table routing traffic from our Internet Gateway to our VPC.
 
-### For making this in the CLI see code below 
+### For making this in the CLI see code linked below 
+Click [Here](./Console-README.md) for Code 
 
-#### Creating a VPC
-```
-aws ec2 create-vpc --cidr-block "10.0.0.0/16" --instance-tenancy "default" --tag-specifications '{"resourceType":"vpc","tags":[{"key":"Name","value":"linux-learning"}]}' 
-```
+# Security Groups and Instances
 
-#### Modify VPC attribute
-```
-aws ec2 modify-vpc-attribute --vpc-id "preview-vpc-1234" --enable-dns-hostnames '{"value":true}' 
-```
+## Launching an instance and doing it right! 
 
-#### DescribeVPC's
-```
-aws ec2 describe-vpcs --vpc-ids "preview-vpc-1234" 
-```
+* 1. Names! 
+    * You will need to name your instance, keep it appropriate, in this instance i recommend calling this "linux learning"
 
-#### Create Subnet
-```
-aws ec2 create-subnet --vpc-id "preview-vpc-1234" --cidr-block "10.0.0.0/20" --availability-zone "us-east-1a" --tag-specifications '{"resourceType":"subnet","tags":[{"key":"Name","value":"linux-learning-subnet-public1-us-east-1a"}]}' 
-```
+* 2. Your API (amazon machine image)
+    * You need to make sure you are selecting the right AMI, in this instance i recommend using the Amazon Linux 2 AMI - Kernel 5.10, SSD Volume Type
 
-#### Create an Internet Gateway
-```
-aws ec2 create-internet-gateway --tag-specifications '{"resourceType":"internet-gateway","tags":[{"key":"Name","value":"linux-learning-igw"}]}' 
-```
+* 3. Key Pairs!
+    * You need to ensure you have a keypair active on this instance so i recommend making one. this has a few steps:
+    * 1. Create a new keypair 
+    * 2. I recommend keeping most of the settings the same but change the **.pem** to a **.ppk**
+    * 3. Create key pair and ensure its selected
 
-#### Attach IGW
-```
-aws ec2 attach-internet-gateway --internet-gateway-id "preview-igw-1234" --vpc-id "preview-vpc-1234" 
-```
-
-#### Create Route Table
-```
-aws ec2 create-route-table --vpc-id "preview-vpc-1234" --tag-specifications '{"resourceType":"route-table","tags":[{"key":"Name","value":"linux-learning-rtb-public"}]}' 
-```
-
-#### Create Route
-```
-aws ec2 create-route --route-table-id "preview-rtb-public-0" --destination-cidr-block "0.0.0.0/0" --gateway-id "preview-igw-1234" 
-```
-
-#### Associate IGW
-```
-aws ec2 associate-route-table --route-table-id "preview-rtb-public-0" --subnet-id "preview-subnet-public-0" 
-```
-
-#### Describe ROute Table
-```
-aws ec2 describe-route-tables  
-```
+* 4. Network settings!!
+    * You will need to change some network settings around!
+* 4. 
+    * 
+* 4. 
+    * 
+* 4. 
+    * 
+* 4. 
+    * 

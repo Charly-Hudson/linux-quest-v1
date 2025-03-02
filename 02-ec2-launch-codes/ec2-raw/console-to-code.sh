@@ -1,0 +1,7 @@
+aws ec2 create-key-pair --key-name "linux-learning" --key-type "rsa" --key-format "ppk" 
+
+aws ec2 create-security-group --group-name "linux-learning" --description "launch-wizard-1 created 2025-02-23T18:00:54.135Z" --vpc-id "vpc-0bb5ac3246b00fbc8" 
+
+aws ec2 authorize-security-group-ingress --group-id "sg-preview-1" --ip-permissions '{"IpProtocol":"tcp","FromPort":22,"ToPort":22,"IpRanges":[{"CidrIp":"0.0.0.0/0"}]}' '{"IpProtocol":"tcp","FromPort":443,"ToPort":443,"IpRanges":[{"CidrIp":"0.0.0.0/0"}]}' '{"IpProtocol":"tcp","FromPort":80,"ToPort":80,"IpRanges":[{"CidrIp":"0.0.0.0/0"}]}' 
+
+aws ec2 run-instances --image-id "ami-04681163a08179f28" --instance-type "t2.micro" --key-name "linux-learning" --network-interfaces '{"SubnetId":"<your-subnet-id>","AssociatePublicIpAddress":true,"DeviceIndex":0,"Groups":["linux-learning"]}' --credit-specification '{"CpuCredits":"standard"}' --tag-specifications '{"ResourceType":"instance","Tags":[{"Key":"Name","Value":"linux-test"},{"Key":"usage","Value":"linux-test"}]}' --metadata-options '{"HttpEndpoint":"enabled","HttpPutResponseHopLimit":2,"HttpTokens":"required"}' --private-dns-name-options '{"HostnameType":"ip-name","EnableResourceNameDnsARecord":false,"EnableResourceNameDnsAAAARecord":false}' --count "1" --user-data "#!/bin/bash sudo yum install pip -y sudo yum install tree -y"
