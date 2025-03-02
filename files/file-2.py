@@ -1,15 +1,18 @@
 import datetime
 import json
 import os
-
-
+from random_word import RandomWords
 
 
 now = datetime.datetime.now()
 today_key = "day-" + now.strftime("%d/%m/%Y")
 
-counter = 5
-secret_word = "test"
+r = RandomWords()
+secret_word = r.get_random_word()
+# testing
+# print(secret_word)
+word_length = len(secret_word)
+counter = word_length - 2
 letters_revealed = 1
 
 score_file_path = "./game/score.json"
