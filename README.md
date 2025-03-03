@@ -51,14 +51,44 @@ Click [Here](./Console-README.md) for Code
     * 1. Create a new keypair 
     * 2. I recommend keeping most of the settings the same but change the **.pem** to a **.ppk**
     * 3. Create key pair and ensure its selected
+    # **Notice That a file will download you will need this do not delete it**
 
 * 4. Network settings!!
     * You will need to change some network settings around!
-* 4. 
-    * 
-* 4. 
-    * 
-* 4. 
-    * 
-* 4. 
-    * 
+    * Firstly you will need to choose the right VPC so use the VPC you made **NOT THE DEFAULT**
+    * Next choose the subnet you made
+    * Now you need to enable auto-assign public-IP
+    * Then you need to create a security group:
+        - Name: Linux-Learning-SG
+        - Leave the SSH rule alone
+        - Add a rule for HTTP and HTTPS making them anywhere (ipv4 anyone 0.0.0.0/0 rules should apply)
+
+* 5. Storage!
+    *  You should keep the size of your volume the same (8gb) but i recommend changing form a GP3 to a GP2
+
+* 6. Advanced Details !!
+    * Now for the advanced details the only real thing we need to change is the addition of some user data, so scroll to the berry bottom and add the following
+```
+#!/bin/bash
+
+sudo yum install pip -y
+sudo yum install tree -y
+```
+* 7. Launch instance!
+
+# Putty Setup 
+
+## In a few simple steps lets connect to that instance !
+
+* 1. The key!
+    * You will need to locate your **.ppk** key, this should be in your downloads folder
+    * I recommend moving this to a secure location it will not be easily seen or located
+    * once you have it stored safely you will need to open putty, in the left menu panel click the **+** next to **SSH** and then **Auth** respectively revealing the credentials tab. select that. This will give you the option to search for your private key with the browse button. 
+    * Once you have your PPK key located head back to the main screen by clicking the session tab at the very top, by now you should have a public ip on your aws instance copy that IP address and paste it into the **Host Name (or IP address)**
+    *  Now i recommend typing in the saved sessions input box "Linux Learning" the clicking the save button on the right hand side. finally pressing the open button at the bottom.
+    * Finally i recommend clicking the accept button for any popups. 
+
+# The Linux System !
+
+## A few tests !!
+

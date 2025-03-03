@@ -1,0 +1,15 @@
+clear - clear console
+
+history - show previous 2000 commands
+
+history 20 - show previous 20 commands
+
+mkdir <name of directory>- make a directory
+
+cd <name of directory>- change directory 
+
+mkdir test mkdir test/main mkdir test/second - create multiple directories
+
+ls - list all files/directories
+
+ls <dir name> - list all files/directories of that specific directory
