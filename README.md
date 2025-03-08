@@ -117,7 +117,7 @@ Now we have the quest, lets view it. You will notice its a .zip file, lets see h
 <details>
 <summary>Hint</summary> 
 <pre>
-*Hint: how to UNZIP a zip? TREEs are more then a plant.*
+* Hint: how to UNZIP a zip? TREEs are more then a plant.
 </pre>
 </details>
 
@@ -144,7 +144,7 @@ There is a linux-quest.md in this folder. I wonder how we can view this?
 * Hint: might as well go get a CAT scan  
 </details>
 
-<details><summary></summary> 
+<details><summary>Answer</summary> 
 <pre>
 cat linux-quest.md
 </pre>
