@@ -124,7 +124,7 @@ Now we have the quest, lets view it. You will notice its a .zip file, lets see h
 <details><summary>Answers</summary> 
 <summary>Answer 1/2</summary> 
 <pre>
-unzip linux-Quest.zip
+unzip linux-quest.zip
 </pre>
 
 <summary>Answer 2/2</summary> 
@@ -146,6 +146,6 @@ There is a linux-quest.md in this folder. I wonder how we can view this?
 
 <details><summary>Answer</summary> 
 <pre>
-cat linux-quest.md
+cat linux-quest/linux-quest.md
 </pre>
 </details>
