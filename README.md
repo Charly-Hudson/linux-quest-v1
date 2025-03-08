@@ -92,3 +92,22 @@ sudo yum install tree -y
 
 ## The Linux Quest !!
 
+### Quest 1 Downloading The Quest!
+
+Lets start by firstly downloading the Quest from this URL:
+```
+https://develop.charlyhudson.co.uk
+```
+There are afew ways to do so, lets find out how.
+
+The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) Distro, SO the Linux RedHat commands should work, here is a [Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) for when you are stuck!
+
+### Quest 2 Viewing the Quest
+
+Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that.
+
+||
+```
+unzip linux-Quest.zip
+```
+||
