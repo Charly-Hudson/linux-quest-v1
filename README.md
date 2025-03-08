@@ -107,7 +107,7 @@ The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/
 Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that.
 
 <details>
-<Summery>Spoiler</summery>
+    <Summery>Spoiler</summery>
 ```bash
 unzip linux-Quest.zip
 ```
