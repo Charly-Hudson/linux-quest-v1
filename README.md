@@ -90,7 +90,7 @@ sudo yum install tree -y
 
 # The Linux Quest !!
 
-## Quest 1: Downloading The Quest!
+## Quest 1 Part 1/3: Downloading The Quest!
 
 Lets start by firstly downloading the Quest from this URL:
 ```
@@ -100,15 +100,28 @@ There are afew ways to do so, lets find out how.
 
 The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) Distro, SO the Linux RedHat commands should work, here is a [Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) for when you are stuck!
 
+<spoiler>
+<pre>
+*Hint: we are using the **W**eb to **GET**ting
+</pre>
+</spoiler>
+
 <details><summery>Spoiler</summery> 
 <pre>
 wget https://develop.charlyhudson.co.uk/linux-quest.zip
 </pre>
 </details>
 
-## Quest 2: Viewing the Quest
+## Quest 1 Part 2/3: Viewing the Quest
 
-Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that. Then lets see how we can see whats inside *Hint: Trees are more then a plant.*
+Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that. Then lets see how we can see whats inside 
+
+<spoiler>
+<summery>Unzipping</summery> 
+<pre>
+*Hint: Trees are more then a plant.*
+</pre>
+</spoiler>
 
 <details>
 <summery>Unzipping</summery> 
@@ -125,6 +138,6 @@ tree linux-quest
 
 </details>
 
-## Quest 3: Viewing the quest!
+## Quest 1 Part 3/3: Viewing the quest!
 
-There is a linux-quest.md in this folder. 
+There is a linux-quest.md in this folder. I wonder how we can view this? 
