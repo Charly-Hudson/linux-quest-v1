@@ -101,7 +101,7 @@ There are afew ways to do so, lets find out how.
 The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) Distro, SO the Linux RedHat commands should work, here is a [Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) for when you are stuck!
 
 <details><summary>Hint</summary> 
-Hint: we are using the *W*eb to *GET*ting
+Hint: we are using the Web to GETting
 </details>
 
 <details><summary>Answer</summary> 
@@ -117,11 +117,11 @@ Now we have the quest, lets view it. You will notice its a .zip file, lets see h
 <details>
 <summary>Hint</summary> 
 <pre>
-*Hint: Trees are more then a plant.*
+*Hint: how to UNZIP a zip? TREEs are more then a plant.*
 </pre>
 </details>
 
-<details>
+<details><summary>Answers</summary> 
 <summary>Answer 1/2</summary> 
 <pre>
 unzip linux-Quest.zip
@@ -140,10 +140,12 @@ tree linux-quest
 
 There is a linux-quest.md in this folder. I wonder how we can view this? 
 
-<details><summary></summary> 
+<details><summary>Hint</summary>
+* Hint: might as well go get a CAT scan  
 </details>
 
 <details><summary></summary> 
 <pre>
+cat linux-quest.md
 </pre>
 </details>
