@@ -100,11 +100,11 @@ There are afew ways to do so, lets find out how.
 
 The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) Distro, SO the Linux RedHat commands should work, here is a [Cheat Sheet](https://developers.redhat.com/cheat-sheets/linux-commands-cheat-sheet) for when you are stuck!
 
-<details>
-*Hint: we are using the **W**eb to **GET**ting
+<details><summary>Hint</summary> 
+Hint: we are using the *W*eb to *GET*ting
 </details>
 
-<details><summary>details</summary> 
+<details><summary>Answer</summary> 
 <pre>
 wget https://develop.charlyhudson.co.uk/linux-quest.zip
 </pre>
@@ -122,12 +122,12 @@ Now we have the quest, lets view it. You will notice its a .zip file, lets see h
 </details>
 
 <details>
-<summary>Unzipping</summary> 
+<summary>Answer 1/2</summary> 
 <pre>
 unzip linux-Quest.zip
 </pre>
 
-<summary>Unzipping</summary> 
+<summary>Answer 2/2</summary> 
 <pre>
 ls 
 ls linux-quest
@@ -139,3 +139,11 @@ tree linux-quest
 ## Quest 1 Part 3/3: Viewing the quest!
 
 There is a linux-quest.md in this folder. I wonder how we can view this? 
+
+<details><summary></summary> 
+</details>
+
+<details><summary></summary> 
+<pre>
+</pre>
+</details>
