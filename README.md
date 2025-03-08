@@ -88,11 +88,9 @@ sudo yum install tree -y
     *  Now i recommend typing in the saved sessions input box "Linux Learning" the clicking the save button on the right hand side. finally pressing the open button at the bottom.
     * Finally i recommend clicking the accept button for any popups. 
 
-# The Linux System !
+# The Linux Quest !!
 
-## The Linux Quest !!
-
-### Quest 1 Downloading The Quest!
+## Quest 1: Downloading The Quest!
 
 Lets start by firstly downloading the Quest from this URL:
 ```
@@ -108,12 +106,25 @@ wget https://develop.charlyhudson.co.uk/linux-quest.zip
 </pre>
 </details>
 
-### Quest 2 Viewing the Quest
+## Quest 2: Viewing the Quest
 
-Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that.
+Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that. Then lets see how we can see whats inside *Hint: Trees are more then a plant.*
 
-<details><summery>Spoiler</summery> 
+<details>
+<summery>Unzipping</summery> 
 <pre>
 unzip linux-Quest.zip
 </pre>
+
+<summery>Listing Files</summery> 
+<pre>
+ls 
+ls linux-quest
+tree linux-quest
+</pre>
+
 </details>
+
+## Quest 3: Viewing the quest!
+
+There is a linux-quest.md in this folder. 
