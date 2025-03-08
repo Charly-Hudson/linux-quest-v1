@@ -104,7 +104,7 @@ The Amazon Linux 2 AMI is based off of a [RedHat](https://developers.redhat.com/
 *Hint: we are using the **W**eb to **GET**ting
 </details>
 
-<details><summery>details</summery> 
+<details><summary>details</summary> 
 <pre>
 wget https://develop.charlyhudson.co.uk/linux-quest.zip
 </pre>
@@ -115,18 +115,19 @@ wget https://develop.charlyhudson.co.uk/linux-quest.zip
 Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that. Then lets see how we can see whats inside 
 
 <details>
-<summery>Unzipping</summery> 
+<summary>Hint</summary> 
 <pre>
 *Hint: Trees are more then a plant.*
 </pre>
 </details>
 
 <details>
-<summery>Unzipping</summery> 
+<summary>Unzipping</summary> 
 <pre>
 unzip linux-Quest.zip
 </pre>
 
+<summary>Unzipping</summary> 
 <pre>
 ls 
 ls linux-quest
