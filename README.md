@@ -94,7 +94,7 @@ sudo yum install tree -y
 
 Lets start by firstly downloading the Quest from this URL:
 ```
-https://develop.charlyhudson.co.uk/linux-quest.zip
+develop.charlyhudson.co.uk/learning-linux-ec2/linux-quest.zip
 ```
 There are afew ways to do so, lets find out how.
 
@@ -106,7 +106,7 @@ Hint: we are using the Web to GETting
 
 <details><summary>Answer</summary> 
 <pre>
-wget https://develop.charlyhudson.co.uk/linux-quest.zip
+wget develop.charlyhudson.co.uk/learning-linux-ec2/linux-quest.zip
 </pre>
 </details>
 
@@ -138,7 +138,7 @@ tree linux-quest
 
 ## Quest 1 Part 3/3: Viewing the quest!
 
-There is a linux-quest.md in this folder. I wonder how we can view this? 
+There is a linux-quest-2.md in this folder. I wonder how we can view this? 
 
 <details><summary>Hint</summary>
 * Hint: might as well go get a CAT scan  
@@ -146,6 +146,6 @@ There is a linux-quest.md in this folder. I wonder how we can view this?
 
 <details><summary>Answer</summary> 
 <pre>
-cat linux-quest/linux-quest.md
+cat linux-quest/linux-quest-2.md
 </pre>
 </details>
