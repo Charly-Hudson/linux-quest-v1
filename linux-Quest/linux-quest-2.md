@@ -2,7 +2,7 @@
 
 ## Quest 2: Part 1 The Setup
 
-First things first theres some environment setup you need to do. I.E the hints. 
+First things first theres some environment setup you need to do. I.E the hints and answers . 
 
 Please run the following command:
 
@@ -15,9 +15,9 @@ Please run the following command:
 
 Now we've done some simple commands, but theres a lot more to do! 
 
-Like any good Architect/Dev you need to set up correctly. so lets do so now! 
+Like any good Architect/Dev you need to set up correctly. So lets do so now! 
 
-first things first, we need to make some directories (Folders) for all our new data!
+First things first, we need to make some directories (Folders) for all our new data!
 
 The file structure should look something like this:
 
@@ -25,10 +25,10 @@ The file structure should look something like this:
 |      Tree           |          ls             |
 |  —quests            |   /quests               |
 |    ⊢—quest1         |   /quests/quest1        |
-|        ⊢—file1      |   /quests/quest1/file1  |
-|        ⊢—file2      |   /quests/quest1/file2  |
+|    |   ⊢—file1      |   /quests/quest1/file1  |
+|    |   ⊢—file2      |   /quests/quest1/file2  |
 |    ⊢—quest2         |   /quests/quest2        |
-|        ⊢—game       |   /quests/quest2/game   |
+|    |   ⊢—game       |   /quests/quest2/game   |
 |    ⊢—quest3         |   /quests/quest3        |
 |        ⊢—quest3     |   /quests/quest3/       |
 |                     |                         |

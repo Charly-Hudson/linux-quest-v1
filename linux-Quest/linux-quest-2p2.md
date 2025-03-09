@@ -21,14 +21,14 @@ In the end it should look like this
 |      Tree                  |          ls                       |
 |  —quests                   |   /quests                         |
 |    ⊢—quest1                |   /quests/quest1                  |
-|        ⊢—file1             |   /quests/quest1/file1            |
-|            ⊢—file1.txt     |   /quests/quest1/file1/file1.txt  |
-|        ⊢—file2             |   /quests/quest1/file2            |
-|            ⊢—file2.py      |   /quests/quest1/file2/file2.py   |
+|    |   ⊢—file1             |   /quests/quest1/file1            |
+|    |   |   ⊢—file1.txt     |   /quests/quest1/file1/file1.txt  |
+|    |   ⊢—file2             |   /quests/quest1/file2            |
+|    |       ⊢—file2.py      |   /quests/quest1/file2/file2.py   |
 |    ⊢—quest2                |   /quests/quest2                  |
-|        ⊢—game              |   /quests/quest2/game             |
-|            ⊢—day.json      |   /quests/quest2/game/day.json    |
-|            ⊢—score.json    |   /quests/quest2/game/score.json  |
+|    |   ⊢—game              |   /quests/quest2/game             |
+|    |       ⊢—day.json      |   /quests/quest2/game/day.json    |
+|    |       ⊢—score.json    |   /quests/quest2/game/score.json  |
 |    ⊢—quest3                |   /quests/quest3                  |
 |        ⊢—quest3            |   /quests/quest3/                 |
 |                            |                                   |

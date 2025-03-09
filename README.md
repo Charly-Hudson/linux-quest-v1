@@ -114,6 +114,8 @@ wget develop.charlyhudson.co.uk/learning-linux-ec2/linux-quest.zip
 
 Now we have the quest, lets view it. You will notice its a .zip file, lets see how we can upzip that. Then lets see how we can see whats inside 
 
+To avoid permission conflicts use -I 777 
+
 <details>
 <summary>Hint</summary> 
 <pre>
