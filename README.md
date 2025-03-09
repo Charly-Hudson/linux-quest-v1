@@ -71,8 +71,10 @@ Click [Here](./Console-README.md) for Code
 ```
 #!/bin/bash
 
-sudo yum install pip -y
+sudo yum install dos2unix -y
 sudo yum install tree -y
+sudo yum install python3-pip -y
+pip3 install urllib==1.26.6 -y
 ```
 * 7. Launch instance!
 
@@ -126,7 +128,7 @@ To avoid permission conflicts use -I 777
 <details><summary>Answers</summary> 
 <summary>Answer 1/2</summary> 
 <pre>
-unzip linux-quest.zip
+unzip -I 777 linux-quest.zip
 </pre>
 
 <summary>Answer 2/2</summary> 
