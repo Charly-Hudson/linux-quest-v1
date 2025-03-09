@@ -9,6 +9,7 @@ Please run the following command:
 |=============================|
 |                             |
 |  bash linux-quest/setup.sh  |
+|  source ~/.bashrc           |
 |                             |
 |=============================|
 
